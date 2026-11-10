@@ -4,7 +4,16 @@
 
 <p align="center">A small, fast Windows app for trimming the start and end of a video, accurate to the frame.</p>
 
-<p align="center"><img src="docs/images/demo.gif" width="760" alt="SwiftCut applying a suggested trim, zooming and playing the selection"></p>
+<p align="center">
+  <a href="https://github.com/swiftredvox/SwiftCut/releases/latest"><img src="https://img.shields.io/github/v/release/swiftredvox/SwiftCut?label=download&color=2ee6d6" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2ee6d6" alt="Windows 10 and 11">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-2ee6d6" alt="MIT licence"></a>
+  <img src="https://img.shields.io/badge/price-free-2ee6d6" alt="Free">
+</p>
+
+<p align="center"><a href="https://github.com/swiftredvox/SwiftCut/releases/latest"><b>⬇ Download SwiftCut for Windows</b></a></p>
+
+<p align="center"><img src="docs/images/demo.webp" width="760" alt="SwiftCut applying a suggested trim, zooming and playing the selection"></p>
 
 Open a recording, drag two handles to the part you want to keep, check it, and save. There are
 no projects, tracks, accounts or adverts, and nothing goes online. Made for trimming screen
@@ -113,3 +122,6 @@ SwiftCut is released under the [MIT licence](LICENSE), © 2026 SwiftRedVox. It b
 [Qt](https://www.qt.io/) (LGPL-3.0), [FFmpeg](https://ffmpeg.org/) (GPL-3.0) and Python (PSF).
 Their licences and source links are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and
 each release includes the matching FFmpeg source archive.
+
+The footage in the screenshot and demo is from [Pexels](https://www.pexels.com/), used under the
+Pexels licence.
