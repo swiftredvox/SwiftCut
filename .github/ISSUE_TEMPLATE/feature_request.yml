@@ -1,0 +1,19 @@
+name: Feature idea
+description: Suggest something that would make SwiftCut better
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SwiftCut aims to stay small and fast: a feature earns its place if it speeds up trimming or sharing without adding clutter. Ideas are collected for future updates.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like SwiftCut to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What are you trying to do, and how do you do it today?

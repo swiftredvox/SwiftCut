@@ -1,0 +1,19 @@
+[project]
+name = "swiftcut"
+version = "1.0.0"
+description = "A lightweight, precise video trimmer for Windows"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "SwiftRedVox" }]
+dependencies = [
+    "PySide6-Essentials==6.12.0",
+    "PySide6-Addons==6.12.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: longer integration tests"]
+addopts = "-q"

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+build/
+dist/
+vendor/ffmpeg/
+*.spec.bak
+~*.swiftcut-*.partial.*
+SwiftCut.lnk
+
+# Generated test videos (tools/make_samples.py) - local only, never committed or packaged
+samples/
+vendor/*.tar.xz
+
+# Private notes (roadmap, manual test checklist, original brief): kept locally, never published
+private/

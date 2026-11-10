@@ -1,0 +1,53 @@
+name: Bug report
+description: Something isn't working as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. SwiftCut is updated occasionally, so reports are collected and looked at when the next update is prepared.
+        Tip: **Settings → About → Report a problem** in SwiftCut fills in the version details below for you.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: "I opened a 2-minute MP4, trimmed it to 0:10-0:40 and pressed Save, but..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. ...
+  - type: textarea
+    id: video
+    attributes:
+      label: About the video (if relevant)
+      description: Format, length, resolution, where it came from (e.g. "ShareX recording, 1920x1080, 30 s"). Settings → Advanced → File details shows most of this.
+  - type: input
+    id: version
+    attributes:
+      label: SwiftCut version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 (build 26100)"
+  - type: input
+    id: environment
+    attributes:
+      label: Other details
+      description: Filled in automatically when you use "Report a problem" in SwiftCut.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log (optional)
+      description: |
+        Settings → Open log folder → swiftcut.log. **The log includes file names and folders**, so check it (and remove anything private) before pasting.
+      render: text
